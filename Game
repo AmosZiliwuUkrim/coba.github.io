@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .main {
+            padding: 20px;
+        }
+        .main h2 {
+            margin-bottom: 20px;
+        }
+        .main p {
+            margin-bottom: 20px;
+        }
+        footer {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nama Anda</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+        <div class="main">
+            <h2 id="about">Tentang</h2>
+            <p>Tentang Anda...</p>
+
+            <h2 id="portfolio">Portofolio</h2>
+            <p>Proyek-proyek yang telah Anda kerjakan...</p>
+
+            <h2 id="contact">Kontak</h2>
+            <p>Email: contoh@email.com</p>
+            <p>Nomor telepon: 081234567890</p>
+        </div>
+        <footer>
+            <p>&copy; 2022 Nama Anda. Semua hak cipta dilindungi.</p>
+        </footer>
+    </div>
+</body>
+</html>
